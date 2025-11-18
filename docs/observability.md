@@ -2,7 +2,7 @@
 
 Observability is a key aspect of building and maintaining high-quality AI applications. It encompasses monitoring, tracing, and evaluating the performance and behavior of AI systems to ensure they meet desired standards and provide a safe and reliable user experience. 
 
-In **pre-deployment** stage, you can leverage [Agent Evaluation](#agent-evaluation) and [AI Red Teaming Agent](#ai-red-teaming-agent) features to assess and improve the quality, safety, and reliability of your AI agents before they are released to end users. You will establish a test baseline for your agent and continuously monitor its performance during development iterations. For example, you find 85% passing rate for [task completion rate](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/agent-evaluators#system-evaluation) to be the acceptance threshold for your agents before deployment.
+In **pre-deployment** stage, you can leverage [Agent Evaluation](#agent-evaluation) and [AI Red Teaming Agent](#ai-red-teaming-agent) features to assess and improve the quality, safety, and reliability of your AI agents before they are released to end users. You will establish a test baseline for your agent and continuously monitor its performance during development iterations. For example, you find 85% passing rate for [task completion rate](https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-evaluators/agent-evaluators#system-evaluation) to be the acceptance threshold for your agents before deployment.
 
 In **post-deployment** stage, you can utilize [Tracing and monitoring](#tracing-and-monitoring) and [Continuous Evaluation](#continuous-evaluation) capabilities to maintain ongoing visibility into your agent's performance and behavior in production. With the baselines established in pre-deployment, you can set up alerts for a desirable passing rate, so that you can review the failing traces that helps you quickly identify and address any issues that may arise, ensuring a consistent and high-quality user experience.
 
@@ -21,7 +21,7 @@ Execute `azd up` to generate most of these environment variables in `.azure/.env
 
 ## Agent Evaluation
 
-Azure AI Foundry offers a number of [built-in evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/observability#what-are-evaluators) to measure the quality, efficiency, risk and safety of your agents. For example, intent resolution, tool call accuracy, and task adherence evaluators are targeted to assess the end-to-end and tool call process quality of agent workflow, while content safety evaluator checks for inappropriate content in the responses such as violence or hate. 
+Azure AI Foundry offers a number of [built-in evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts/observability#what-are-evaluators) to measure the quality, efficiency, risk and safety of your agents. For example, intent resolution, tool call accuracy, and task adherence evaluators are targeted to assess the end-to-end and tool call process quality of agent workflow, while content safety evaluator checks for inappropriate content in the responses such as violence or hate. 
 You can also create custom evaluators tailored to your specific requirements, including custom prompt-based evaluators or code-based evaluators that implement your unique assessment criteria.
 
 In this template, we show how the evaluation of your agent can be intergrated into the test suite of your AI application.
