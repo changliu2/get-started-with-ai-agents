@@ -28,11 +28,11 @@ In this template, we show how the evaluation of your agent can be intergrated in
 
 You can use the [evaluation test script](../tests/test_evaluation.py) to validate your agent's performance using built-in Azure AI evaluators. The test demonstrates how to:
   - Define testing criteria using Azure AI evaluators:
-    - [Agent evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/agent-evaluators.md): process and system level evaluators specifically designed for agent workflows.
-    - [Retrieval-augmented Generation (RAG) evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/rag-evaluators.md): evaluate the quality of end-to-end and retrieval process of RAG in agents or standalone systems.
-    - [Risk and safety evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/risk-safety-evaluators.md): assess potential risks and safety concerns in agent responses.
-    - [General purpose evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/general-purpose-evaluators.md): evaluate coherence and fluency in business writing scenarios.
-    - [Textual similarity evaluators](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts//evaluation-evaluators/textual-similarity-evaluators.md): measure semantic similarity of AI-generated texts with respect to expected ground truth texts.
+    - [Agent evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-evaluators/agent-evaluators): process and system level evaluators specifically designed for agent workflows.
+    - [Retrieval-augmented Generation (RAG) evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-evaluators/rag-evaluators): evaluate the quality of end-to-end and retrieval process of RAG in agents or standalone systems.
+    - [Risk and safety evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-evaluators/risk-safety-evaluators): assess potential risks and safety concerns in agent responses.
+    - [General purpose evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-evaluators/general-purpose-evaluators): evaluate coherence and fluency in business writing scenarios.
+    - [Textual similarity evaluators](https://learn.microsoft.com/azure/ai-foundry/concepts//evaluation-evaluators/textual-similarity-evaluators): measure semantic similarity of AI-generated texts with respect to expected ground truth texts.
   - Run evaluation against specific test queries
   - Retrieve and analyze evaluation results
 
